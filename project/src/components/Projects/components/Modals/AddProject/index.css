@@ -1,0 +1,121 @@
+.AddProject {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.AddProject__header {
+  padding: 85px 42px 24px 42px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--suvaGreyOpacity);
+}
+
+.AddProject__title {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.15;
+  color: var(--black);
+  font-family: var(--Campton);
+}
+
+.AddProject__button {
+  position: relative;
+  border: none;
+  background: none;
+  outline: none;
+  width: 24px;
+  height: 24px;
+}
+
+.AddProject__button:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background-color: var(--black);
+  width: 24px;
+  height: 4px;
+  transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+.AddProject__button:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background-color: var(--black);
+  width: 24px;
+  height: 4px;
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.AddProject__content{
+  padding: 0 42px;
+  flex: 1 1;
+}
+
+.AddProject h1 {
+  font-size: 18px;
+  line-height: 1.22;
+  color: var(--black);
+  font-family: var(--HoeflerText);
+  margin: 110px 0 57px;
+}
+
+.AddProject__input {
+  font-family: var(--Campton);
+  font-size: 14px;
+  line-height: 1.14;
+  color: var(--black);
+  border: solid 1px var(--black);
+  background-color: var(--white);
+  height: 60px;
+  width: 100%;
+  padding-left: 19px;
+  outline: none;
+}
+
+.AddProject__input::placeholder {
+  color: var(--black);
+}
+
+.AddProject__footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 37px 40px 33px;
+  border-top: 1px solid var(--suvaGreyOpacity);
+}
+
+.AddProject__submit {
+  border: none;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  outline: none;
+  text-transform: capitalize;
+}
+
+.AddProject__submit-icon {
+  width: 60px;
+  height: 60px;
+}
+
+.AddProject__submit-text {
+  font-family: var(--Campton);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.19;
+  color: var(--black);
+  margin-left: 20px;
+}
+
+.AddProject__reset {
+  border: none;
+  background-color: transparent;
+  outline: none;
+  font-family: var(--Campton);
+  font-size: 14px;
+  line-height: 1.14;
+  color: var(--black);
+}

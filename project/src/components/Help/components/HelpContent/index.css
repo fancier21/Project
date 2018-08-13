@@ -1,0 +1,37 @@
+h6 {
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 0.89;
+  padding-bottom: 14px;
+}
+
+p {
+  font-family: Campton;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: left;
+  color: #000000;
+  margin-top: 10px;
+}
+
+.content {
+	display: flex;
+	flex-wrap: wrap;
+	/*background-color: grey;*/
+	/*min-height: calc(100vh - 17px);*/
+	padding: 0 130px 0 130px;
+	margin: 0 -30px;
+}
+
+.content-box {
+  flex: 1;
+  width: calc(50% - 60px);
+  min-width: 300px;
+  margin: 0 30px;
+  box-sizing: border-box;
+}
+
+.content-box__item {
+	margin-bottom: 60px;
+}
+

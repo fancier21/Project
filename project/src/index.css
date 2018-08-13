@@ -1,0 +1,136 @@
+/* GLOBALS */
+
+:root {
+	/* any global variables (like colors) go here --var-name: value */
+	/*colors http://www.htmlcsscolor.com/hex/*/
+
+	--Campton: 'Campton-Medium';
+	--HoeflerText: 'Hoefler-Text';
+	--CamptonBold: 'Rene-Bieder-Campton-Bold';
+	--CamptonBook: 'Rene-Bieder-Campton-Book';
+	--CamptonSemiBold: 'Rene-Bieder-Campton-SemiBold';
+
+	--white: #fff;
+	--whiteSmoke: #f8f8f8;
+	--black: #000;
+	--suvaGrey: #898989;
+	--silver: #bababa;
+	--dimGray: #707070;
+
+	--suvaGreyOpacity: rgba(137, 137, 137, .2);
+}
+
+/* FONTS */
+
+@font-face {
+	font-family: 'Campton-Medium';
+	font-weight: 500;
+	font-display: block;
+	src: url('/assets/fonts/Campton-Medium.otf') format('opentype'),
+	url('/assets/fonts/Campton-Medium.otf') format('opentype');
+}
+
+@font-face {
+	font-family: 'Hoefler-Text';
+	font-weight: 500;
+	font-display: block;
+	src: url('/assets/fonts/Hoefler-Text.ttc') format('opentype'),
+	url('/assets/fonts/Hoefler-Text.ttc') format('opentype');
+}
+
+@font-face {
+	font-family: 'Rene-Bieder-Campton-Bold';
+	font-weight: 500;
+	font-display: block;
+	src: url('/assets/fonts/Rene-Bieder-Campton-Bold.otf') format('opentype'),
+	url('/assets/fonts/Rene-Bieder-Campton-Bold.otf') format('opentype');
+}
+
+@font-face {
+	font-family: 'Rene-Bieder-Campton-Book';
+	font-weight: 500;
+	font-display: block;
+	src: url('/assets/fonts/Rene-Bieder-Campton-Book.otf') format('opentype'),
+	url('/assets/fonts/Rene-Bieder-Campton-Book.otf') format('opentype');
+}
+
+@font-face {
+	font-family: 'Rene-Bieder-Campton-SemiBold';
+	font-weight: 500;
+	font-display: block;
+	src: url('/assets/fonts/Rene-Bieder-Campton-SemiBold.otf') format('opentype'),
+	url('/assets/fonts/Rene-Bieder-Campton-SemiBold.otf') format('opentype');
+}
+
+/* ANIMATION */
+
+@-webkit-keyframes display-none-transition {
+	100% {
+		transform: translateX(0%);
+	}
+}
+
+/* RESET CSS */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	font-family: 'Noto Sans', sans-serif;
+	font-weight: 400;
+	-webkit-font-smoothing: antialiased;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+*, *:before, *:after {
+	box-sizing: border-box;
+}
+
+a {
+	font-size: inherit;
+	font-weight: inherit;
+	color: inherit;
+	text-decoration: none;
+}
+
+img {
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+}

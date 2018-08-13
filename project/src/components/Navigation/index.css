@@ -1,0 +1,84 @@
+@import "../../index.css";
+
+.Navigation {
+  z-index: 200;
+  position: relative;
+}
+
+.Navigation__container {
+  display: flex;
+  position: absolute;
+  transform: translateX(-85%);
+  transition: .3s ease-in-out;
+}
+
+.Navigation__container--opened {
+  transform: translateX(0%);
+}
+
+.Navigation__sidebar {
+  width: 400px;
+  height: 100vh;
+  background: var(--black);
+  z-index: 2;
+}
+
+.Navigation__sidebar-container {
+  height: 100%;
+  padding: 80px 50px 30px;
+  font-family: var(--CamptonBook);
+  display: flex;
+  flex-direction: column;
+}
+
+.Navigation__text-block {
+  flex: 1 1;
+}
+
+.Navigation__sidebar-block {
+  margin-bottom: 80px;
+}
+
+.Navigation__nav-link {
+  display: block;
+  color: var(--suvaGrey);
+  margin-bottom: 30px;
+  font-size: 16px;
+  line-height: 1.38;
+  text-transform: capitalize;
+}
+
+.Navigation__nav-link:hover {
+  color: var(--white);
+}
+
+.Navigation__buttons {
+  display: flex;
+  flex-direction: column;
+  margin: 80px 0 0 -3px;
+}
+
+.Navigation__button {
+  position: relative;
+  width: 75px;
+  height: 80px;
+  border: none;
+  outline: none;
+  margin-bottom: 2px;
+  padding: 0;
+  background-color: var(--suvaGrey);
+}
+
+.Navigation__button:hover {
+  background-color: var(--white);
+}
+
+.Navigation__svg {
+  width: 79px;
+  height: 80px;
+}
+
+.Navigation__logo {
+  height: 80px;
+  align-self: left;
+}

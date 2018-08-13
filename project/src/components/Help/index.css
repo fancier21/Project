@@ -1,0 +1,41 @@
+.help {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #fff;
+}
+
+.help-wrapper {
+  display: flex;
+  flex-flow: column;
+  flex: 1 0 400px;
+  padding-top: 70px;
+}
+
+.help-header {
+  margin-left: 130px;
+  margin-bottom: 50px;
+}
+
+.help-header__title {
+  font-family: HoeflerText;
+  font-size: 24px;
+  line-height: 1.21;
+  text-align: left;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+.help-header__subtitle {
+  font-family: HoeflerText;
+  font-size: 13px;
+  line-height: 1.23;
+  text-align: left;
+  color: #000000;
+} 
+
+
+
+
+
+
+
